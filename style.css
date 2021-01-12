@@ -1,0 +1,306 @@
+body {
+  margin: 0px auto;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+ 
+}
+nav ul li {
+  list-style-type: none;
+  float: left;
+  padding-right: 2.35em; /* (px,em,%),pt,cm */
+  color: #00FA9A;
+}
+nav ul {
+  float: right;
+}
+nav {
+  width: 100%;
+  text-align: center;
+  height: 65px;
+  background-color:darkblue;
+  position: fixed;
+  
+}
+hr
+{
+  border: 2px solid pink;
+  border-radius:2px ;
+  background-color: pink;
+}
+nav ul li a {
+  text-decoration: none;
+  color: beige;
+  font-size: 20px;
+
+}
+section {
+  background-color:#00FA9A;
+}
+.home {
+  font-style: italic;
+  background-color: #00FA9A;
+  text-align: center;
+  font-size: 60px;
+  color:white;
+  display: table;
+  height: 120vh;
+  width: 100%;
+}
+.inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+.home .inner img {
+ margin-top: 80px;
+  border-radius: 100%;
+  width: 300px;
+  height: auto;
+}
+.web .inner {
+  display: table-cell;
+  vertical-align: middle;
+     width: 70%;
+     float: left;
+     padding-top: 75px;
+     padding-left: 50px;
+   }
+   
+   .web .inner h1 {
+     
+     font-size: 42px;
+     color: 	#0de970;
+     font-weight: 800;
+   
+   }
+   .web .inner p {
+     font-size: 28px;
+     line-height: 50px;
+     color:#d2cbd6;
+   }
+   .web {
+
+      background-color: #622fd8;
+     
+       display: table;
+       height: 100vh;
+       width: 100%;
+       font-size: large;
+       background-size: cover;
+       background-repeat: no-repeat;
+     }
+
+.about {
+  
+ background-color: #0d0f0d;
+
+  display: table;
+  height: 100vh;
+  width: 100%;
+  font-size: large;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.about .inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 70%;
+  float: left;
+  padding-top: 75px;
+  padding-left: 50px;
+}
+
+.about .inner h1 {
+  
+  font-size: 42px;
+  color: 	#0de970;
+  font-weight: 800;
+
+}
+.about .inner p {
+  font-size: 28px;
+  line-height: 50px;
+  color:#d2cbd6;
+}
+.education {
+  background-color: #ffa36c;
+  display: table;
+  height: 100vh;
+  width: 100%;
+}
+.education .inner {
+  padding: 50px;
+}
+.education h1,
+.skills h1,
+.contact h1 {
+  font-size: 42px;
+}
+.education .inner div,
+.skills .inner div {
+  width: 30%;
+  margin-left: 5px;
+  margin-right: 5px;
+  float: left;
+  text-align: center;
+}
+.education .inner .a
+{
+   margin-top: -10px;
+}
+.education .inner .b
+{
+   margin-top: -40px;
+}
+.education .inner div p,
+.skills .inner div li,
+.contact .inner p {
+  font-size: 26px;
+}
+.education .inner div img
+{
+  width: 100px;
+  height: auto;
+}
+
+
+
+.skills,
+.contact {
+  display: table;
+  height: 100vh;
+  width: 100%;
+}
+
+.skills {
+  background-color: #0d0f0d;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.skills .inner {
+  background-color: #0d0f0d;
+  padding: 50px;
+  color:#56d4b9;
+}
+.skills .inner div ul li {
+  list-style-type: none;
+}
+.skills .inner div li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.contact .inner {
+  text-align: center;
+  background-color: #cbbcb1
+}
+.project {
+  
+  background-color: #622fd8;
+ 
+   display: table;
+   
+   height: 100vh;
+   width: 100%;
+   font-size: large;
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+ .project .inner {
+   display: table;
+   vertical-align: middle;
+   width: 70%;
+   float: left;
+   padding-top: 75px;
+   padding-left: 50px;
+ }
+ 
+ .project .inner h1 {
+   
+   font-size: 42px;
+   color: 	#0de970;
+   font-weight: 800;
+ 
+ }
+ .project .inner button {
+   border-radius: 10px;
+   font-size: 28px;
+   line-height: 50px;
+   color:#d2cbd6;
+   margin: 10px;
+ }
+ .project .inner button a{
+   text-decoration: none;
+   padding: 5px;
+ }
+
+
+ .form {
+  
+  background-color: #f0e00b;
+ 
+   display: table;
+   width: 100%;
+   
+   height: 100vh;
+   
+   font-size: large;
+   background-size: cover;
+   background-repeat: no-repeat;
+ }
+ .form .inner {
+  display: table;
+  vertical-align: middle;
+  width: 70%;
+  float: left;
+  padding-top:75px;
+  padding-left: 50px;
+
+}
+
+.form .inner h1 {
+  
+  font-size: 42px;
+  color: 	#0de970;
+  font-weight: 800;
+
+}
+.form .inner form input{
+  border:2px solid pink;
+  border-radius: 10px;
+  height: 30px;
+
+}
+.form .inner form 
+{  
+margin: 50px;
+ 
+  font-size: 30px;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+  nav {
+    height: 90px;
+    
+  }
+  .home .inner img {
+    padding-top: 100px;
+  }
+  
+ 
+  .about .inner p {
+    font-size: 18px;
+    text-align: justify;
+  }
+  .web .inner p {
+    font-size: 18px;
+    text-align: justify;
+  }
+ 
+  .education .inner div,
+ 
+  .skills .inner div {
+    width: 100%;
+  }
+  
+}
